@@ -1,3 +1,4 @@
+  import bgImage from "/1.png";
 export default function About() {
   return (
     <section id="about">
@@ -6,7 +7,7 @@ export default function About() {
         {/* IMAGE CONTAINER — HIDDEN ON SMALL SCREENS */}
         <div className="relative flex-1 w-full justify-center hidden md:flex">
           <img
-            src="/1.png"
+            src={bgImage}
             alt="Profile"
             className="w-full max-w-[420px] mask-fade"
           />

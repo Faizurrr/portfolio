@@ -1,3 +1,4 @@
+  import bgImage from "/1.png";
 export default function Home() {
   return (
     <section id="home">
@@ -8,7 +9,7 @@ export default function Home() {
           
           {/* IMAGE */}
           <img
-            src="/1.png"
+            src={bgImage}
             alt="Profile"
             className="w-full max-w-[420px] mask-fade"
           />

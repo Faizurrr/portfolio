@@ -16,12 +16,12 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-   emailjs.sendForm(
-  import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-  formRef.current,
-  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-)
+    emailjs.sendForm(
+      "service_y37g1vm",
+      "template_d1yfsrk",
+      formRef.current,
+      "ZCseuel9FIcVDBwfF"
+    )
     .then(() => {
       setStatus("Message sent successfully!");
       formRef.current.reset();
