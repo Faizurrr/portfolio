@@ -146,12 +146,12 @@ export default function Projects() {
       </div>
 
       {/* Freelancing Section - RESTORED EXACT STYLE */}
-      <section className="relative w-screen h-screen mt-20">
+      <section className="relative w-screen h-96 mt-20">
         <img src={FreelanceBG} alt="Background" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/60"></div>
 
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6">
-          <h1 className="text-5xl sm:text-6xl font-extrabold">
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6 ">
+          <h1 className="text-4x1 sm:text-6xl font-extrabold">
             I'm <span className="text-yellow-400">Available</span> for freelancing
           </h1>
           <p className="mt-4 max-w-2xl text-gray-300 text-lg">
