@@ -38,7 +38,7 @@ Science Bachelor's student and an accomplished programmer
         {/* Services Section */}
         <div>
           <h2 className="text-white text-xl font-semibold mb-4">Services</h2>
-          <ul className="space-y-2 text-gray-400">
+          <ul className="space-y-2 text-gray-400"> 
         
               
             <li>Web Development</li>
@@ -79,7 +79,7 @@ Science Bachelor's student and an accomplished programmer
                     <SiX />
                   </a>
         
-                  <a href="tel:+919876543210" className="hover:text-green-400 transition">
+                  <a href="tel:+918052914779" className="hover:text-green-400 transition">
                     <MdPhone />
                   </a>
                  
