@@ -1,6 +1,6 @@
 import React from "react";
 
-// Importing images to ensure they are bundled correctly for deployment
+import LoopTalk from "/public/picturesofprojects/LoopTalk.png";
 import PGWebsite from "/public/picturesofprojects/websiteforpg.png";
 import NewsApp from "/public/picturesofprojects/websiteforNews.png";
 import WeatherApp from "/public/picturesofprojects/websiteforWeather.png";
@@ -29,7 +29,26 @@ export default function Projects() {
       {/* Projects Grid */}
       <div className="grid gap-6 sm:gap-8 lg:gap-10 max-w-6xl mx-auto sm:grid-cols-2 lg:grid-cols-3">
 
-        {/* 1️⃣ PG Website */}
+        {/* 1. LoopTalk */}
+          <div className="bg-zinc-900 rounded-xl overflow-hidden hover:scale-105 hover:shadow-xl border border-zinc-700 transition duration-300">
+          <img src={LoopTalk} alt="PG Website" className="w-full h-48 sm:h-60 object-cover" />
+          <div className="p-6">
+            <h3 className="text-xl font-bold text-white mb-2">LoopTalk</h3>
+            <p className="text-gray-400 text-sm mb-4">
+                A language exchange platform with real-time chat and video calls, and AI-powered message correction.
+            </p>
+            <a
+              href="https://github.com/Faizurrr/LoopTalkx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-center bg-yellow-400 text-black py-2 rounded-lg font-semibold hover:bg-yellow-500 transition"
+            >
+              Click Here for Review
+            </a>
+          </div>
+        </div>
+
+        {/* 2. PG Website */}
         <div className="bg-zinc-900 rounded-xl overflow-hidden hover:scale-105 hover:shadow-xl border border-zinc-700 transition duration-300">
           <img src={PGWebsite} alt="PG Website" className="w-full h-48 sm:h-60 object-cover" />
           <div className="p-6">
@@ -48,7 +67,7 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* 2️⃣ News App */}
+        {/* 3. News App */}
         <div className="bg-zinc-900 rounded-xl overflow-hidden hover:scale-105 hover:shadow-xl border border-zinc-700 transition duration-300">
           <img src={NewsApp} alt="News App" className="w-full h-48 sm:h-60 object-cover" />
           <div className="p-6">
@@ -67,7 +86,7 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* 3️⃣ Weather App */}
+        {/* 4. Weather App */}
         <div className="bg-zinc-900 rounded-xl overflow-hidden hover:scale-105 hover:shadow-xl border border-zinc-700 transition duration-300">
           <img src={WeatherApp} alt="Weather App" className="w-full h-48 sm:h-60 object-cover" />
           <div className="p-6">
@@ -86,26 +105,8 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* 4️⃣ Amazon Clone */}
-        <div className="bg-zinc-900 rounded-xl overflow-hidden hover:scale-105 hover:shadow-xl border border-zinc-700 transition duration-300">
-          <img src={AmazonClone} alt="Amazon Clone" className="w-full h-48 sm:h-60 object-cover" />
-          <div className="p-6">
-            <h3 className="text-xl font-bold text-white mb-2">Amazon Clone</h3>
-            <p className="text-gray-400 text-sm mb-4">
-              Amazon homepage clone using HTML & CSS.
-            </p>
-            <a
-              href="https://github.com/Faizurrr/Amazon-Clone"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full text-center bg-yellow-400 text-black py-2 rounded-lg font-semibold hover:bg-yellow-500 transition"
-            >
-              Click Here for Review
-            </a>
-          </div>
-        </div>
-
-        {/* 5️⃣ Text App */}
+  
+        {/* 6. Text App */}
         <div className="bg-zinc-900 rounded-xl overflow-hidden hover:scale-105 hover:shadow-xl border border-zinc-700 transition duration-300">
           <img src={TextApp} alt="Text App" className="w-full h-48 sm:h-60 object-cover" />
           <div className="p-6">
@@ -124,7 +125,7 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* 6️⃣ Tic Tac Toe */}
+        {/* 7. Tic Tac Toe */}
         <div className="bg-zinc-900 rounded-xl overflow-hidden hover:scale-105 hover:shadow-xl border border-zinc-700 transition duration-300">
           <img src={TicTacToe} alt="Tic Tac Toe" className="w-full h-48 sm:h-60 object-cover" />
           <div className="p-6">
@@ -142,8 +143,26 @@ export default function Projects() {
             </a>
           </div>
         </div>
-
+          {/* 5. Amazon Clone */}
+        <div className="bg-zinc-900 rounded-xl overflow-hidden hover:scale-105 hover:shadow-xl border border-zinc-700 transition duration-300">
+          <img src={AmazonClone} alt="Amazon Clone" className="w-full h-48 sm:h-60 object-cover" />
+          <div className="p-6">
+            <h3 className="text-xl font-bold text-white mb-2">Amazon Clone</h3>
+            <p className="text-gray-400 text-sm mb-4">
+              Amazon homepage clone using HTML & CSS.
+            </p>
+            <a
+              href="https://github.com/Faizurrr/Amazon-Clone"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-center bg-yellow-400 text-black py-2 rounded-lg font-semibold hover:bg-yellow-500 transition"
+            >
+              Click Here for Review
+            </a>
+          </div>
+        </div>
       </div>
+       
 
       {/* Freelancing Section - RESTORED EXACT STYLE */}
       <section className="relative w-screen h-96 mt-20">

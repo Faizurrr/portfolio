@@ -84,7 +84,7 @@ export default function Resume() {
 
           </div>
                <div className="mt-10 flex justify-center items-center">
-  <a href = "\Resumepdf\FaizurRahman_Resume_White.pdf (2).pdf"className="bg-yellow-400 text-black px-8 py-4 rounded-full font-semibold hover:bg-yellow-300 transition flex items-center">
+  <a href = "\public\Faizurrahman_Resume (2) (1).pdf (2).pdf"className="bg-yellow-400 text-black px-8 py-4 rounded-full font-semibold hover:bg-yellow-300 transition flex items-center">
     DOWNLOAD RESUME
   </a>
     </div>
